@@ -125,18 +125,19 @@ streamlit run app.py
 ## 📸 Demo
 “Below are real screenshots of the system in action demonstrating retrieval-based reasoning and context-aware responses.”
 
+## 📸 Demo
+
 ### 🔹 Main Interface
-![UI](assets/ui.png)
+![UI](assets/UI.png)
 
 ### 🔹 Query Modes
-![Modes](assets/modes.png)
+![Modes](assets/Modes.png)
 
 ### 🔹 AI Response
-![Output](assets/output.png)
+![Output](assets/Output.png)
 
 ### 🔹 Retrieved Context
-![Context](assets/context.png)
-
+![Context](assets/Content%20Retrieval.png)
 ---
 
 ## 💡 Example Queries
