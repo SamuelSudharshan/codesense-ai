@@ -27,15 +27,6 @@ def create_db(chunks):
         raise ValueError("No code files found in /data folder")
     return FAISS.from_texts(chunks, embeddings)
 
-    for i, vec in enumerate(vectors):
-        client.insert(
-            id=str(i),
-            vector=vec,
-            metadata={"text": chunks[i]}
-        )
-
-    return client
-
 
 def retrieve_from_db(query, db):
     docs = db.similarity_search(query, k=3)
